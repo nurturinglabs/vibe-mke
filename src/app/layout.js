@@ -1,4 +1,5 @@
 import { Bebas_Neue, DM_Sans, JetBrains_Mono } from "next/font/google";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
 const bebasNeue = Bebas_Neue({
@@ -47,7 +48,10 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${bebasNeue.variable} ${dmSans.variable} ${jetbrainsMono.variable}`}
     >
-      <body>{children}</body>
+      <body>
+        {children}
+        <SpeedInsights />
+      </body>
     </html>
   );
 }
