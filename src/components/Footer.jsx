@@ -19,22 +19,6 @@ function Footer() {
             <h3 style={{ fontFamily: F.heading, fontSize: 32, color: C.cream, letterSpacing: 4, margin: "0 0 6px" }}>VIBE MKE</h3>
             <p style={{ fontFamily: F.mono, fontSize: 11, color: C.steel, letterSpacing: 1 }}>Milwaukee's AI Creation Community</p>
           </div>
-          <div style={{ display: "flex", gap: 32 }}>
-            <div>
-              <span style={{ fontFamily: F.mono, fontSize: 10, letterSpacing: 2, color: C.brickLight,
-                textTransform: "uppercase", display: "block", marginBottom: 10 }}>Connect</span>
-              {["Twitter/X", "Meetup", "Discord"].map(l => (
-                <a key={l} href="#" style={{ display: "block", fontFamily: F.body, fontSize: 13,
-                  color: `${C.cream}88`, textDecoration: "none", marginBottom: 7 }}>{l}</a>
-              ))}
-            </div>
-            <div>
-              <span style={{ fontFamily: F.mono, fontSize: 10, letterSpacing: 2, color: C.brickLight,
-                textTransform: "uppercase", display: "block", marginBottom: 10 }}>Powered by</span>
-              <a href="#" style={{ fontFamily: F.body, fontSize: 13,
-                color: `${C.cream}88`, textDecoration: "none" }}>Nurturinglabs</a>
-            </div>
-          </div>
         </div>
 
         <div style={{ borderTop: `1px solid ${C.brick}33`, paddingTop: 20,

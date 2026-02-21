@@ -7,12 +7,12 @@ export const FAQ_ITEMS = [
   {
     question: "What do I need to bring?",
     answer:
-      "A laptop with WiFi capability. That's it. We'll provide tool access, credits, and WiFi. If you don't have a laptop, come anyway \u2014 we'll pair you up.",
+      "A laptop and your own AI tools (ChatGPT, Claude, Cursor, Midjourney \u2014 whatever you use). When we have sponsors, we may provide free credits. If you don't have a laptop, come anyway \u2014 we'll pair you up.",
   },
   {
     question: "Is it really free?",
     answer:
-      "Yes. Free to attend, free tools, free credits from sponsors. We may ask you to RSVP on Meetup so we can plan for space.",
+      "Yes. Free to attend, always. You bring your own tools \u2014 but when we land sponsors, we'll share free credits and access. Just RSVP on Meetup so we can plan for space.",
   },
   {
     question: "How big are the events?",
@@ -32,7 +32,7 @@ export const FAQ_ITEMS = [
   {
     question: "Where exactly is it?",
     answer:
-      "Milwaukee Public Library, Central Branch \u2014 814 W Wisconsin Ave. Free parking after 6pm. We'll update the location on Meetup if it changes.",
+      "We're still finalizing the venue. Check back soon or RSVP on Meetup to get notified when the location is confirmed.",
   },
   {
     question: "Can I bring a friend?",

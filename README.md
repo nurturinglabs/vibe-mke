@@ -102,4 +102,4 @@ Push to GitHub and connect to [Vercel](https://vercel.com) for automatic deploym
 
 Built with brick in Milwaukee. Cream City forever.
 
-Powered by [Nurturinglabs](https://nurturinglabs.com)
+Powered by MKE Community

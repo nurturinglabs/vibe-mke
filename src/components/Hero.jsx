@@ -90,7 +90,7 @@ export default function Hero() {
           letterSpacing: 3, textTransform: "uppercase", textDecoration: "none",
           border: "none", cursor: "pointer", boxShadow: `0 4px 20px ${C.brick}44`,
         }}>
-          Next Event → March 6
+          Next Event → March 26
         </a>
 
         <p style={{ fontFamily: F.mono, fontSize: 11, color: C.steel, marginTop: 16, letterSpacing: 1 }}>

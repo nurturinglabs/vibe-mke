@@ -1,6 +1,5 @@
 import { C } from '../constants/colors';
 import { F } from '../constants/fonts';
-import { MKE_IMAGES } from '../constants/images';
 import { MEDIUMS } from '../constants/mediums';
 import BrickTexture from './decorative/BrickTexture';
 
@@ -31,48 +30,6 @@ export default function About() {
           </p>
         </div>
 
-        {/* MKE Photo Strip — real Milwaukee photos */}
-        <div style={{
-          display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 3,
-          marginBottom: 48, overflow: "hidden",
-        }}>
-          {[
-            { label: "RIVERWALK", sub: "Where we build", img: MKE_IMAGES.riverwalk },
-            { label: "ART MUSEUM", sub: "Where we dream", img: MKE_IMAGES.calatrava },
-            { label: "LAKEFRONT", sub: "Where it all connects", img: MKE_IMAGES.skyline },
-          ].map((p, i) => (
-            <div key={i} style={{
-              height: 200, position: "relative", overflow: "hidden",
-            }}>
-              <div style={{
-                position: "absolute", inset: 0,
-                backgroundImage: `url(${p.img})`,
-                backgroundSize: "cover", backgroundPosition: "center",
-                filter: "brightness(0.45) saturate(0.8)",
-              }} />
-              <div style={{
-                position: "absolute", inset: 0,
-                background: `linear-gradient(0deg, ${C.warmBlack}CC 0%, transparent 50%, ${C.warmBlack}44 100%)`,
-              }} />
-              <div style={{
-                position: "absolute", bottom: 16, left: 16, right: 16, zIndex: 1,
-              }}>
-                <span style={{
-                  fontFamily: F.heading, fontSize: 26, color: C.cream, letterSpacing: 4,
-                  display: "block", textShadow: `0 2px 8px ${C.warmBlack}`,
-                }}>
-                  {p.label}
-                </span>
-                <span style={{
-                  fontFamily: F.mono, fontSize: 9, color: `${C.cream}AA`, letterSpacing: 3,
-                  textTransform: "uppercase",
-                }}>
-                  {p.sub}
-                </span>
-              </div>
-            </div>
-          ))}
-        </div>
 
         {/* Mediums grid */}
         <div style={{

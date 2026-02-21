@@ -58,21 +58,6 @@ export default function Events() {
           ))}
         </div>
 
-        {/* Venue */}
-        <div style={{
-          marginTop: 28, padding: "22px 26px", background: C.warmBlack,
-          borderLeft: `4px solid ${C.amber}`, display: "flex", alignItems: "flex-start", gap: 14,
-        }}>
-          <span style={{ fontSize: 22 }}>📍</span>
-          <div>
-            <p style={{ fontFamily: F.body, fontSize: 15, color: C.cream, margin: "0 0 4px", fontWeight: 600 }}>
-              Milwaukee Public Library — Central Branch
-            </p>
-            <p style={{ fontFamily: F.mono, fontSize: 12, color: C.steel, margin: 0 }}>
-              814 W Wisconsin Ave · 6:00 PM – 8:30 PM · Free parking after 6pm
-            </p>
-          </div>
-        </div>
       </div>
     </section>
   );
