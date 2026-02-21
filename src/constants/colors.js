@@ -1,0 +1,15 @@
+export const C = {
+  brick: "#C4613A",
+  brickLight: "#D4845F",
+  brickDark: "#8B3A1F",
+  cream: "#F5EDE0",
+  creamDark: "#E8DCC8",
+  charcoal: "#2A2522",
+  warmBlack: "#1A1714",
+  rust: "#A0522D",
+  steel: "#6B7B8D",
+  steelLight: "#8FA3B4",
+  amber: "#E8A838",
+  amberGlow: "#F4C150",
+  white: "#FAFAF7",
+};
