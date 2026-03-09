@@ -47,11 +47,11 @@ export default function Events() {
 
               {e.status === "next" && (
                 <div style={{ display: "flex", alignItems: "center", padding: "0 20px" }}>
-                  <button style={{
+                  <a href={e.rsvpLink} target="_blank" rel="noopener noreferrer" style={{
                     fontFamily: F.heading, fontSize: 15, letterSpacing: 3, textTransform: "uppercase",
                     padding: "11px 24px", background: C.amber, color: C.warmBlack,
-                    border: "none", cursor: "pointer", whiteSpace: "nowrap",
-                  }}>RSVP →</button>
+                    border: "none", cursor: "pointer", whiteSpace: "nowrap", textDecoration: "none",
+                  }}>RSVP →</a>
                 </div>
               )}
             </div>
